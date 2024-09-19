@@ -1,0 +1,109 @@
+@import url("reset.css");
+
+/* *{
+    color:red;
+}
+p{
+    color: blue;
+}
+h1{
+    color: green;
+}
+h2{
+    color: orange;
+}
+div{
+    color: grey;
+}
+ul{
+    color: purple;
+}
+li{ 
+    color: plum;
+}
+a{
+    color: black;
+} */
+
+/* 
+.title {
+    color: pink;
+}
+.navigation {
+    color:blueviolet;
+}
+.list {
+    color:aqua;
+}
+.item {
+    color: yellow;
+}
+.link{
+    color:hotpink;
+}
+.article {
+    color: green;
+}
+.text {
+    color:brown;
+}
+.subtitle {
+    color: seagreen;
+}
+
+#yushchenko{
+    color: yellow;
+}
+#zankovetska{
+    color: sandybrown;
+}
+[class*="te"]{
+    color: blue;
+
+}
+[class*="ti"]{
+    color: violet;
+} */
+
+/* Combinations */
+p.text{
+    color:chartreuse;
+}
+h2.subtitle{
+    color:darkblue;
+}
+
+.text.red{
+    color: red;
+}
+.text.green{
+    color: green;
+}
+
+h1, .link{
+    color:darkgreen;
+}
+
+span, mark{
+    color:green;
+}
+
+.article .blue{
+    color: blue;
+}
+
+.article>p{
+    color:dodgerblue;
+}
+
+.item>a{
+    color:orange;
+}
+
+.exercise~div{
+    color:mediumvioletred;
+}
+
+.exercise2+div{
+    color: orange;
+}
