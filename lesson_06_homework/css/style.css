@@ -1,0 +1,322 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800");
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Work+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&family=Work+Sans:ital@0;1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,800;1,800&display=swap');
+@import url("fonts.css");
+@import url("reset.css");
+
+.wrapper{
+    min-height: 100%;
+    overflow: clip;
+}
+
+header{
+    background-image: url("../img/leaves.webp");
+    min-height: 150px;
+    color: #fff;
+    padding: 50px;
+}
+.headercontainer{
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+h1{
+    font-family: Roboto, serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.navigation a{
+    color: #fff;
+    font-size: 18px;
+    line-height: 130%;
+}
+.navigation a:focus{
+    outline: 1px solid purple;
+
+}
+
+.practise{
+    background-color: #ffa;
+    font-size: 0;
+
+}
+.practisecontainer{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.practise h2{
+    font-family: Roboto, serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.practise .block{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    vertical-align: top;
+}
+
+.block1{
+
+    border-top: 2px solid red;
+    border-right: 3px dashed green;
+    border-bottom: 1px dotted blue;
+    border-left: 1px solid #000;
+}
+.block2{
+    border-inline:3px solid #fff;
+    border-block: 5px dotted #000;
+}
+.block3{
+    border-inline-start: 2px solid green;
+    border-inline-end: 2px dotted orange;
+    border-block-start: 2px solid pink;
+    border-block-end: 3px dashed purple;
+}
+.block4{
+    outline: 13px solid green;
+}
+.block5{
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: inset 10px -5px 3px;
+    
+}
+.block6{
+    border: 5px dotted purple;
+    border-radius: 15px 15px 20px 13px;
+    box-shadow: inset 6px 5px 2px #ccc;
+
+}
+.block7{
+    border-top: 5px solid black;
+    border-right: 6px dotted red;
+    border-bottom: 5px groove blue;
+    border-left: 3px double green;
+    box-shadow: 10px 5px 6px #000;
+    background-color: orange;
+    opacity: 0.5;
+
+}
+.block8{
+    border: 5px double red;
+    background-color: pink;
+    opacity: 0.3;
+    font-size: 16px;
+    color: red;
+}
+.block9{
+    border-color: #ccc;
+    border: 3px dotted red;
+    background-color: #ef6d58;
+    visibility: hidden;
+
+}
+.block10{
+    border: 1px solid black;
+    background-image: url("../img/leaves.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 16px;
+}
+.block11{
+    border: 1px solid black;
+    background-image: url("../img/leaves.webp");
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+}
+.block12{
+    background: linear-gradient(90deg, rgba(233,67,64,1) 20%, rgba(81,75,176,1) 51%, rgba(255,0,224,1) 100%);;
+}
+
+.block13 a{
+    background: yellow url("../img/check.png") 15px / 20px no-repeat;
+    padding: 15px 15px 15px 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    line-height: 150%;
+    font-size: 25px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.block14 a{
+    background-color: white;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 15px;
+}
+.block14 span{
+    display: inline-block;
+    min-height: 20px;
+    background: url("../img/check.png") left/20px no-repeat;
+    padding-left: 30px;
+    font-size: 25px; 
+}
+
+
+
+
+/* HOMEWORK1 */
+.homework1{
+    width: 100%;
+    background-color: #f3d1bf;;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 0;
+}
+.homework1 h2{
+   font-family: Roboto, serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.homework1 .container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.blockleft{
+    max-width: 641px;
+    padding-top: 77px;
+
+}
+.blockleft a{
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #ef6d58;
+}
+.blockleft .link{
+    margin-bottom: 20px;
+}
+.blockleft h2{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    color: #391400;
+    margin-bottom: 26px;
+}
+.blockleft p{
+    font-size: 20px;
+    line-height: 160%;
+    color:  #391400;
+    margin-bottom: 26px;
+}
+.blockleft .list{
+   font-size: 16px;
+line-height: 200%;
+color:  #391400;
+
+}
+.blockleft .list li{
+    background-image: url("../img/check.png");
+    background-position: 0 0;
+    background-size: 32px;
+    background-repeat: no-repeat;   
+    line-height: 200%;
+    padding-left: 48px;
+    margin-bottom: 16px;
+    min-height: 32px;
+}
+
+.blockleft, .blockright{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bloclright img{
+    max-width: 529px;
+
+}
+
+/* HOMEWORK2 */
+.homework-2{
+    background-color: #141414;
+}
+.homework-2 .container2{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container2 h2{
+    font-family: Roboto, serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: white;
+}
+.box1{
+    background: 
+    url("../img/fadeouttop.png") top/100% no-repeat,
+    url("../img/fadeoutbottom.png") bottom/100% no-repeat,
+    url("../img/abstractdesign.png") center/470px auto no-repeat,
+    url("../img/subcontainer.png") 0 0/100% no-repeat;   
+    max-width: 1960px;
+    min-height: 860px;
+    margin: 0 auto;
+}
+.box2{
+    font-family: "Manrope", sans-serif;
+    max-width: 1096px;
+    margin: 0 auto;
+    margin-top: -64px;
+}
+.box2 h2{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.box2 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #999;
+    margin-bottom: 50px;
+
+}
+.link{
+
+    text-align: center;
+    
+}
+.box2 a{
+    display: inline-block;
+    background: #e50000;
+    border-radius: 8px;
+    padding: 18px 24px;
+    text-align: center;
+}
+.box2 span{
+    display: inline-block;
+    background: url("../img/arrowicon.png") 0 0/24px no-repeat;
+    padding-left: 24.5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
