@@ -1,0 +1,622 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Work+Sans:ital@0;1&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&family=Work+Sans:ital@0;1&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,800;1,800&display=swap'); */
+@import url("fonts.css");
+@import url("reset.css");
+
+.wrapper{
+    min-height: 100%;
+    overflow: clip;
+    font-family: roboto, serif;
+    font-size: 20px;
+}
+.wrapper h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.wrapper h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.headercontainer,
+.maincontainer{
+    max-width: 1000px;
+    margin: 0  auto;
+    border: 1px solid black;
+}
+.header{
+    min-height: 300px;
+    background: url("../img/fall_forest.jpg") 0 0/cover no-repeat;
+
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 100px;
+    color: #fff;
+    
+}
+
+.navigation {
+    padding: 50px;
+    font-size: 25px;
+    line-height: 200%;
+    color: #fff;
+}
+.navigation .list1{
+    padding: 50px;
+    font-size: 25px;
+    line-height: 200%;
+    color: #fff;
+}
+.navigation .list2{
+    padding: 50px;
+    font-size: 15px;
+    line-height: 200%;
+    color: #ffc;
+}
+.navigation a:hover{
+    text-decoration: underline;
+}
+.link{
+    display: inline-block;
+   margin-right: 20px;
+   margin-bottom: 20px;
+
+
+}
+.link1 a{
+    padding: 15px;
+    font-size: 30px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.link1 span{
+    background: url("../img/icon.png") 0 0/30px no-repeat;
+    padding-left: 35px;
+    display: inline-block;
+    min-height: 10px;
+}
+.link1 a:hover{
+    background-color:red;
+}
+
+.link2 a{
+    background-color: blue;
+    padding: 20px;
+   border: 1px solid black;
+   border-radius: 10px;
+
+}
+.link2 a span{
+    background: url("../img/iconsearch.png") 0 0/30px no-repeat;
+    font-size: 30px;
+    padding-left: 40px;
+    min-height: 30px;
+    display: inline-block;
+}
+.link2 a:hover{
+    border-radius: 20px;
+
+}
+.link2 a:hover span{
+    text-decoration: underline;
+}
+.link3 a{
+    padding: 25px;
+    background-color:aqua;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+.link3 a span{
+    font-size: 25px;
+    min-height: 25px;
+    background: url("../img/icon.png") 0 0 /25px no-repeat;
+    padding-left: 35px;
+}
+.link3 a:hover{
+    background-color: #01afaf;
+}
+.link3 a:hover span{
+    font-weight: bold;
+}
+.block1{
+    height: 160px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: orangered;
+    padding: 10px;
+
+}
+.block1 img{
+    height: 140px;
+    vertical-align: middle;
+    visibility: hidden;
+}
+.block1:hover img{
+    visibility: visible;
+}
+
+.link4 a{
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.link4 a span{
+    color: white;
+    font-weight: 600;
+    background: url("../img/icon.png") 0 0/20px no-repeat;
+    padding-left: 30px;
+    min-height: 20px;
+    display: inline-block;
+}
+.link4 a:hover span {
+   text-decoration: underline;
+}
+.link4 a:active{
+ background-color: blue;
+ 
+}
+.link4 a:active span{
+    background: url("../img/iconsearch.png") 0 0/20px no-repeat;
+}
+
+.link5 a{
+    background-color: bisque;
+    border: 2px solid brown;
+    padding: 15px;
+}
+.link5 a span{
+    background: url("../img/icon.png") 0 0 /25px no-repeat;
+    padding-left: 35px;
+    min-height: 25px;
+    display: inline-block;
+ line-height: 120%;
+}
+.link5 a:hover span{
+    text-decoration: underline;
+   
+}
+.link5 a:active {
+     background-color: brown;
+}
+.link5 a:active  span{
+     color: white;
+}
+.visited a{
+     text-decoration: underline;
+
+}
+.visited a:hover{
+    font-weight: 600;
+}
+.visited a:visited{
+    color: green;
+}
+.link6 a,
+.link7 a,
+.link8 a{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+.link6 a span,
+.link7 a span,
+.link8 a span{
+    background: url("../img/icon.png") 0 0 /20px no-repeat;
+    min-height: 20px;
+    display: inline-block;
+    padding-left:30px;
+}
+.link6 a:focus{
+    outline: 3px dashed black;
+}
+.link7 a:focus{
+    outline: 3px dashed green;
+    box-shadow: 5px 2px 3px;
+}
+.link8 a:focus{
+    outline: 2px double blue;
+}
+.link9 a,
+.link10 a,
+.link11 a{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.link9 a span,
+.link10 a span,
+.link11 a span{
+    background: url("../img/icon.png") 0 0 /20px no-repeat;
+    min-height: 20px;
+    display: inline-block;
+    padding-left:30px;
+}
+.link9 a:focus{
+    outline: 3px solid purple;
+    box-shadow: 5px 2px 3px;
+}
+.link10 a:focus{
+    outline: 3px solid red;
+    box-shadow: 5px 2px 3px;
+}
+.link11 a:focus{
+    outline: 2px solid green;
+    box-shadow: 5px 2px 3px;
+}
+.target li, p{
+    margin-bottom: 15px;
+}
+.target li{
+    font-weight: bold;
+}
+.text p:target{
+    background-color: aqua;
+    font-weight: bold;
+}
+#first:target{
+    background-color: red;
+}
+.text2 a{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ #fourth{ 
+    display: none;
+    
+}
+#fourth:target{
+    display: block;
+    background-color: blue;
+    color: #fff;
+
+}
+.text3 p:first-child{
+    background-color: aquamarine;
+
+}
+.text3 p:last-child{
+    background-color:aqua;
+
+}
+.text3 p{
+    margin-bottom: 20px;
+}
+.text3 p:last-child{
+    margin-bottom: 0;
+}
+.text3 p span:first-of-type{
+    text-transform: uppercase;
+    background-color: blue;
+}
+.text3 p span:last-of-type{
+    font-style: italic;
+    background-color: red;
+}
+.text3 p:nth-child(4){
+    background-color: bisque;
+}
+.text3 p:nth-child(5){
+    background-color:chartreuse;
+    font-family: Manrope, serif;
+    font-weight: bold;
+}
+.text3 p:nth-child(6){
+    background-color:darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blocks{
+    font-size: 0;
+    margin: 0 auto;
+    border: 1px solid yellow;
+    text-align: center;
+
+}
+.blocks .block{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 300%;
+    font-size: 20px;
+    margin-right: 10px; 
+}
+
+.blocks .block:last-child{
+    margin-right: 0px;
+}
+.blocks .block:nth-last-child(odd){
+    background-color: aquamarine;
+}
+.blocks .block:nth-last-child(even){
+    background-color:darkmagenta;
+}
+.blocks .block:nth-child(3n+1){
+    color:white;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.blocks2{
+    font-size: 0;
+    text-align: center;
+}
+.blocks2 .block{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+.blocks2 .block:not(:last-child){
+    margin-right: 20px;
+}
+
+.blocks2 .block:first-child{
+    margin-left: 20px;
+}
+.blocks2 .block:not(.block17){
+   background-color: cornflowerblue;
+}
+.blocks2 .block:not(:nth-child(2)){
+   border: 3px solid blue; 
+}
+.blocks2:has(span){
+   background-color: red;
+
+}
+.pseudoelements h4{
+    font-weight: 600;
+}
+.before>*{
+    margin-bottom: 20px;
+}
+.pseudoelements>*{
+    margin-bottom: 20px;
+}
+.before p::before,
+.before p::after{
+    content: "XXX";
+    color: red;
+}
+.before span::before,
+.before span::after{
+    content: "YYY";
+    text-decoration: underline;
+    color: blue;
+}
+.before a{
+    font-size: 20px;
+    color: blue;
+}
+.before a:hover{
+    text-decoration: underline;
+}
+.before a:active{
+ font-weight: 600;
+}
+.red{
+    display: inline;
+}
+.red::before{
+    content:"";
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: yellow;
+    vertical-align: middle;
+
+}
+.list li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.list li::before{
+    content:"";
+    width: 30px;
+    height: 30px; 
+    background-color: blue;
+    border: 1px solid red;
+    vertical-align: middle;
+}
+/*Homework1*/
+.homework1container{
+    max-width: 630px;
+    margin: 0 auto;
+    border: 1px solid green;
+    font-family: "DM Sans", sans-serif;
+
+}
+.homework1container .box{
+    width: 100%;
+    padding-block: 21px;
+    margin-bottom: 54px;
+}
+.homework1container .box:last-child{
+    margin-bottom: 0;
+}
+.homework1container .box>*{
+    margin-bottom: 8px;
+}
+.homework1container .date{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    color: #4a3aff;
+
+}
+.homework1container h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 129%;
+    color:  #1e1b39;
+}
+
+.homework1container .sometext{
+   font-weight: 400;
+    font-size: 24px;
+    line-height: 175%; 
+    color: #6e6c83;
+}
+.box>*:last-child{
+    margin-bottom: 0;
+}
+
+
+.box .research:after{
+    content: url("../img/01.png");
+    vertical-align: middle;
+}
+.box .product:after{
+    content: url("../img/02.png");
+    vertical-align: middle;
+}
+.box .launch:after{
+    content: url("../img/03.png");
+    vertical-align: middle;
+}
+
+/*Homework2*/
+
+.homework2container{
+    max-width: 542px;
+    margin: 0 auto;
+    border: 1px solid green;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 100px;
+
+
+}
+.box2{
+    max-width: 542px;
+    margin: 0 auto;
+    background: #f0f0f6;
+    border-radius: 56px;
+    padding: 24px 24px 58px;
+
+
+}
+.box3{
+    border-radius: 34px;
+    background: #4a3aff;
+    padding: 45px;
+    margin-bottom: 34px;
+}
+.box3content{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #fff;
+}
+.box3content p:nth-child(1){
+    font-size: 30px;
+    line-height: 107%;
+    margin-bottom: 2px;
+}
+.box3content p:nth-child(2){ 
+    font-size: 116px;
+    line-height: 103%;
+    margin-bottom: 6px;
+}
+.box3content p:nth-child(3){
+    font-size: 20px;
+    line-height: 110%;
+    color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 0;
+}
+.box4{
+    max-width: 439px;
+    margin: 0 auto;
+}
+.box4 ul li{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 136%;
+    color: #1e1b39;
+    margin-bottom: 26px;
+}
+.box4 ul li:last-child{
+    margin-bottom: 0;
+}
+.box4 ul li::before{
+    content: url("../img/checkcircle.png");
+    max-width: 36px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+/*Game*/
+.gamecontainer{
+    max-width: 600px;
+    background-color: #ffa;
+    border: 1px solid orange;
+    min-height: 600px;
+    margin: 0 auto;
+    font-size: 0;
+    /* vertical-align: top; */
+}
+.blockgame{
+    background-color: #eb9d15;
+    border: 1px solid red;
+    /* display:inline-block; */
+}
+.block-start{
+    width: 50px;
+    height: 50px;
+    
+   /* display: inline-block; */
+
+}
+.blockgame2{
+    width: 200px;
+    height: 50px;
+    /* margin-top: 50px; */
+    /* margin-left: 50px; */
+    /* display: inline-block; */
+    /* visibility: hidden; */
+    display: none;
+ 
+}
+.blockgame3{
+    width: 50px;
+    height: 200px;
+    margin-left: 150px;
+    /* visibility: hidden; */
+    display: none;
+    
+}
+.blockgame4{
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    /* visibility: hidden; */
+    display: none;
+    
+}
+.block-start:hover + .blockgame2{
+    /* visibility: visible; */
+    display: block;
+
+}
+.blockgame2:hover + .blockgame3{
+     display: block;
+}
+/*ne rabotaet :(*/
